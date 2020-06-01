@@ -145,7 +145,7 @@ export default {
         .then(res => {
           console.log(res);
           this.$toast("添加成功");
-          //this.$router.push("/shopcar");
+          this.$router.push("/shopcar");
         });
     }
   }
